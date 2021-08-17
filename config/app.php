@@ -27,9 +27,6 @@ return [
             'spoke' => \modules\Module::class,
         ],
         'bootstrap' => ['spoke', 'demos'],
-        'components' => [
-            'mailer' => null,
-        ],
     ],
     'dev' => [
         'components' => [],

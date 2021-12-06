@@ -91,7 +91,7 @@ Classes actively being used should be detected automatically, but you can encour
 ```twig
 {% set classes = ['100', '500', '900'] %}
 {% for class in classes %}
-  <div class="text-red-{{ class }}"></div>	
+  <div class="text-red-{{ class }}"></div>
 {% endfor %}
 ```
 
@@ -99,7 +99,7 @@ Classes actively being used should be detected automatically, but you can encour
 ```twig
 {% set classes = ['text-red-100', 'text-red-500', 'text-red-900'] %}
 {% for class in classes %}
-  <div class="{{ class }}"></div>	
+  <div class="{{ class }}"></div>
 {% endfor %}
 ```
 
@@ -136,3 +136,4 @@ npx cypress open --config testFiles=./front/a11y/*.spec.js
 The source code of this project is licensed under the [BSD Zero Clause License](LICENSE.MD) unless stated otherwise.
 
 The imagery used by this project is the property of Marin Bikes, and used with permission. You are not free to use it for your own projects.
+
